@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: inherit;
+}
+
+.header-nav {
+  width: 1440px;
+  
+  margin: 0 auto;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.nav {
+  margin: 25px auto;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  width: 112px;
+  height: 39px;
+}
+.nav__items-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 15px;
+}
+.nav__item {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 22.5px;
+}
+
+.request__btn {
+  padding: 12px 32px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 25px;
+  border: none;
+}
+
+.hero-section {
+}
+
+.shopify-brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+.hero__subtitle {
+  margin-top: 54px;
+  color: #a6a6a6;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+.hero__title {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 76.8px;
+  text-align: center;
+}
+.hero__info {
+  margin-top: 23px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.hero__links {
+  margin-top: 36px;
+  display: flex;
+}
+
+.hero__links span {
+  padding: 12px 32px;
+}
+.hero__link {
+}
+
+.hero__shopify-brands-container {
+  margin-top: 55px;
+}
+.hero__shopify-brands-links {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+}
+.hero__shopify-brands-item {
+}
+.hero__shopify-brands-img {
+  margin: 40px auto 35px;
+  display: block;
+}
+
+/* section-2 */
+.localli-operate {
+    
+}
+.container {
+}
+
+.localli-operate .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.localli-operate__subtitle {
+  margin-top: 35px;
+  color: #a6a6a6;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+.localli-operate__title {
+    margin-top: 5px;
+    width: 1028px;
+    font-family: Roboto;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 73.2px;
+    text-align: left;
+    color: #000000;
+}
+.localli-operate__img {
+    margin-top: 90px;
+  display: block;
+  width: 817px;
+  height: 385px;
+}
+/* section-2 */
+
+/* section-3 */
+
+.how-it-works {
+    margin-top: 35px;
+}
+.container {
+}
+
+.how-it-works .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-it-works__subtitle {
+    
+}
+.how-it-works__title {
+    margin-top: 8px;
+}
+.how-it-works__delivery-steps {
+    margin-top: 96px;
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card {
+}
+.card__header {
+}
+.card__body {
+    margin-top: 40px;
+}
+.card-title {
+}
+.card-info {
+    margin-top: 12px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+/* section-3 */
+
